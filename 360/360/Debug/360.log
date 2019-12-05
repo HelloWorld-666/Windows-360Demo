@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019-12-05 20:13:59。
+     1>项目“F:\66666666666\360demo\360\360\360.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\vs\VC\bin\CL.exe /c /IF:\66666666666\360demo\360\\DuiLib /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\360.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2013\vs\VC\bin\CL.exe /c /IF:\66666666666\360demo\360\\DuiLib /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\360.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 360.cpp 360main.cpp
+         360main.cpp
+     1>f:\66666666666\360demo\360\360\360.h(11): warning C4584: “C360SafeFrameWnd”: 基类“DuiLib::CControlUI”已是“DuiLib::CGifAnimUI”的基类
+                 f:\66666666666\360demo\360\duilib\core\uicontrol.h(14) : 参见“DuiLib::CControlUI”的声明
+                 f:\66666666666\360demo\360\duilib\control\uigifanim.h(12) : 参见“DuiLib::CGifAnimUI”的声明
+     1>f:\66666666666\360demo\360\360\360main.cpp(24): warning C4305: “参数”: 从“int”到“bool”截断
+     1>f:\66666666666\360demo\360\360\360main.cpp(24): warning C4800: “HWND”: 将值强制为布尔值“true”或“false”(性能警告)
+         360.cpp
+     1>f:\66666666666\360demo\360\360\360.h(11): warning C4584: “C360SafeFrameWnd”: 基类“DuiLib::CControlUI”已是“DuiLib::CGifAnimUI”的基类
+                 f:\66666666666\360demo\360\duilib\core\uicontrol.h(14) : 参见“DuiLib::CControlUI”的声明
+                 f:\66666666666\360demo\360\duilib\control\uigifanim.h(12) : 参见“DuiLib::CGifAnimUI”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\360.res" 360.rc 
+       Link:
+         D:\VS2013\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\66666666666\360demo\360\Debug\360.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\66666666666\360demo\360\\lib DuiLib_ud.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\66666666666\360demo\360\Debug\360.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\66666666666\360demo\360\Debug\360.lib" /MACHINE:X86 Debug\360.res
+         Debug\360.obj
+         Debug\360main.obj
+         Debug\stdafx.obj
+         360.vcxproj -> F:\66666666666\360demo\360\Debug\360.exe
+     1>已完成生成项目“F:\66666666666\360demo\360\360\360.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.26
